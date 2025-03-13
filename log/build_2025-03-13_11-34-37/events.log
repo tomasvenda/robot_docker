@@ -1,0 +1,332 @@
+[0.000000] (-) TimerEvent: {}
+[0.000277] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000341] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000362] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.007026] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.098930] (-) TimerEvent: {}
+[0.199274] (-) TimerEvent: {}
+[0.284067] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.284784] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.285530] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/turtlesim', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/ros2_ws/build/turtlesim', 'env': OrderedDict([('VNCDESKTOP', 'f4b5f3d74edf:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'f4b5f3d74edf'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-9k3xS2L789,guid=adbef2798f49cfea02b3eb9167d2bd9e'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '660'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-8W8S32'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/f4b5f3d74edf:@/tmp/.ICE-unix/72,unix/f4b5f3d74edf:/tmp/.ICE-unix/72'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-8W8S32/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:ce47ba8e-ce24-4e8d-972d-e37bbc3e14c6'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/ros2_ws/build/turtlesim'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.299392] (-) TimerEvent: {}
+[0.331261] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.332827] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.338851] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_symlink_turtlesim\n'}
+[0.367133] (turtlesim) StdoutLine: {'line': b'[ 50%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.367376] (turtlesim) StdoutLine: {'line': b'[ 50%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.367529] (turtlesim) StdoutLine: {'line': b'[ 50%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.368211] (turtlesim) StdoutLine: {'line': b'[ 60%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.369525] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.372602] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.391605] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim_node\x1b[0m\n'}
+[0.399493] (-) TimerEvent: {}
+[0.404215] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim\n'}
+[0.406176] (turtlesim) StdoutLine: {'line': b'[ 73%] Built target turtle_teleop_key\n'}
+[0.407103] (turtlesim) StdoutLine: {'line': b'[ 77%] Built target draw_square\n'}
+[0.407296] (turtlesim) StdoutLine: {'line': b'[ 77%] Built target mimic\n'}
+[0.426567] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtlesim__py\n'}
+[0.427780] (turtlesim) StdoutLine: {'line': b'[ 84%] Built target turtlesim_node\n'}
+[0.448829] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim__rosidl_generator_py\n'}
+[0.471073] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[0.471283] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[0.472742] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.499599] (-) TimerEvent: {}
+[0.599867] (-) TimerEvent: {}
+[0.622416] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[0.623251] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[0.623499] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[0.623766] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[0.626671] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.627653] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.654037] (turtlesim) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[0.664465] (turtlesim) CommandEnded: {'returncode': 0}
+[0.665314] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[0.672722] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/turtlesim'], 'cwd': '/home/ubuntu/ros2_ws/build/turtlesim', 'env': OrderedDict([('VNCDESKTOP', 'f4b5f3d74edf:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'f4b5f3d74edf'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-9k3xS2L789,guid=adbef2798f49cfea02b3eb9167d2bd9e'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '660'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-8W8S32'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/f4b5f3d74edf:@/tmp/.ICE-unix/72,unix/f4b5f3d74edf:/tmp/.ICE-unix/72'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-8W8S32/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:ce47ba8e-ce24-4e8d-972d-e37bbc3e14c6'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/ros2_ws/build/turtlesim'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.679425] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.680059] (turtlesim) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.680344] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[0.681437] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[0.681655] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[0.681836] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[0.681961] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[0.682090] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[0.682194] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[0.682335] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[0.682454] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[0.682534] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[0.682637] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[0.682742] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[0.682849] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[0.682951] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.683065] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[0.683184] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[0.683293] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[0.683403] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[0.683525] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[0.683646] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[0.683786] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[0.683893] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[0.684023] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[0.684140] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[0.684249] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[0.684353] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[0.684469] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[0.684585] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[0.684704] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[0.684820] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[0.684934] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[0.685048] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[0.685163] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[0.685277] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[0.685498] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[0.685666] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[0.686565] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[0.686697] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[0.686824] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[0.686940] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.687060] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[0.687189] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[0.687299] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[0.687405] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[0.687525] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[0.688376] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[0.688504] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[0.688647] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[0.688769] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.hpp\n'}
+[0.688878] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[0.688988] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[0.689101] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[0.689220] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[0.689343] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[0.689460] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.hpp\n'}
+[0.689579] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[0.689695] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[0.689834] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[0.689952] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.hpp\n'}
+[0.690060] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[0.690168] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.690374] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[0.690483] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[0.690595] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[0.690699] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.hpp\n'}
+[0.690829] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[0.690946] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[0.691095] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[0.691211] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.hpp\n'}
+[0.691337] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[0.691551] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[0.691662] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[0.691769] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.hpp\n'}
+[0.691867] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[0.691988] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[0.692104] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[0.692228] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.hpp\n'}
+[0.692351] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[0.692479] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[0.692647] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[0.692753] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.hpp\n'}
+[0.692864] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[0.692983] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[0.693102] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[0.693223] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[0.693348] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[0.694396] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.694536] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.694639] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.694773] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.694900] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.695027] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.695158] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.695250] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.695375] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.695945] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[0.696112] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[0.696215] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[0.696341] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.696471] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[0.696600] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[0.696727] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[0.696855] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[0.696982] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[0.697553] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.697729] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.697854] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.697956] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.698084] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.698228] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.698358] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.698483] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.698679] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[0.698850] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[0.699249] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO\n'}
+[0.699389] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt\n'}
+[0.699515] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt\n'}
+[0.699638] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt\n'}
+[0.699924] (-) TimerEvent: {}
+[0.700782] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[0.700990] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[0.701133] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.701240] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.701316] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[0.701402] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[0.701490] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[0.701614] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[0.701715] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[0.701833] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[0.701930] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[0.702036] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[0.702152] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[0.702335] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[0.702433] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[0.702552] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[0.702666] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[0.702762] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[0.702863] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[0.703009] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[0.703105] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[0.703211] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[0.703326] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[0.703443] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[0.703576] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.703682] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.703799] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.704095] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.704370] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.704646] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.704832] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[0.704999] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[0.705164] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[0.705334] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[0.705552] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[0.705689] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[0.705848] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[0.705978] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[0.706138] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[0.706479] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[0.706631] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[0.706785] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[0.706927] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[0.707109] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[0.707279] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[0.707443] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[0.707609] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[0.707773] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[0.707971] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[0.708154] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[0.708327] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[0.708509] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[0.708691] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[0.708879] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[0.709055] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[0.709243] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[0.709551] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[0.709737] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[0.709911] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[0.710084] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[0.710523] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[0.710756] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[0.710945] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[0.711108] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[0.711285] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[0.711471] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[0.711653] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[0.711993] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[0.712487] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[0.712681] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[0.712956] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[0.713938] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[0.714817] (my_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/my_package/build', 'install', '--record', '/home/ubuntu/ros2_ws/build/my_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/my_package', 'env': {'VNCDESKTOP': 'f4b5f3d74edf:1 (ubuntu)', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'HOSTNAME': 'f4b5f3d74edf', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ros2_ws/src', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ubuntu/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-9k3xS2L789,guid=adbef2798f49cfea02b3eb9167d2bd9e', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '660', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-8W8S32', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/f4b5f3d74edf:@/tmp/.ICE-unix/72,unix/f4b5f3d74edf:/tmp/.ICE-unix/72', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_CURRENT_DESKTOP': 'MATE', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-8W8S32/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'TERMINATOR_UUID': 'urn:uuid:ce47ba8e-ce24-4e8d-972d-e37bbc3e14c6', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/ros2_ws/build/my_package', 'PYTHONPATH': '/home/ubuntu/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6800', 'QT_FONT_DPI': '96'}, 'shell': False}
+[0.719502] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[0.719672] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[0.719792] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.719934] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.720089] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.720239] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.720388] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.720540] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.720694] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[0.720804] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[0.720953] (turtlesim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[0.721174] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[0.721447] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[0.721709] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.721963] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[0.722186] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[0.722452] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[0.722702] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[0.752610] (turtlesim) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[0.752770] (turtlesim) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[0.752845] (turtlesim) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[0.752911] (turtlesim) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[0.757481] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[0.757763] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/images\n'}
+[0.757913] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[0.757983] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[0.758096] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[0.758168] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[0.758313] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[0.758396] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[0.758475] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[0.758539] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[0.758623] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[0.758700] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[0.758812] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.758911] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.759046] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.759122] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[0.759217] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.759363] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.759473] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.759555] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.759658] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[0.759746] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.759824] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.759907] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.759969] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[0.760031] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.760094] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[0.760156] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.761261] (turtlesim) CommandEnded: {'returncode': 0}
+[0.787357] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[0.800041] (-) TimerEvent: {}
+[0.900339] (-) TimerEvent: {}
+[0.965881] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[0.967222] (my_package) StdoutLine: {'line': b'creating ../../build/my_package/my_package.egg-info\n'}
+[0.967461] (my_package) StdoutLine: {'line': b'writing ../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[0.967748] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[0.967966] (my_package) StdoutLine: {'line': b'writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[0.968136] (my_package) StdoutLine: {'line': b'writing requirements to ../../build/my_package/my_package.egg-info/requires.txt\n'}
+[0.968253] (my_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[0.968408] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[0.970055] (my_package) StdoutLine: {'line': b"reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[0.970241] (my_package) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.970819] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[0.971002] (my_package) StdoutLine: {'line': b'running build\n'}
+[0.971134] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[0.971294] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/my_package/build\n'}
+[0.971431] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/my_package/build/lib\n'}
+[0.971552] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/my_package/build/lib/my_package\n'}
+[0.971687] (my_package) StdoutLine: {'line': b'copying my_package/my_node.py -> /home/ubuntu/ros2_ws/build/my_package/build/lib/my_package\n'}
+[0.971809] (my_package) StdoutLine: {'line': b'copying my_package/__init__.py -> /home/ubuntu/ros2_ws/build/my_package/build/lib/my_package\n'}
+[0.971939] (my_package) StdoutLine: {'line': b'running install\n'}
+[0.972214] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[0.972950] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package\n'}
+[0.973104] (my_package) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/my_package/build/lib/my_package/my_node.py -> /home/ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package\n'}
+[0.973257] (my_package) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/my_package/build/lib/my_package/__init__.py -> /home/ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package\n'}
+[0.973794] (my_package) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_node.py to my_node.cpython-310.pyc\n'}
+[0.974073] (my_package) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc\n'}
+[0.974256] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[0.974444] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/my_package/share/ament_index\n'}
+[0.974595] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/my_package/share/ament_index/resource_index\n'}
+[0.974714] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/my_package/share/ament_index/resource_index/packages\n'}
+[0.974887] (my_package) StdoutLine: {'line': b'copying resource/my_package -> /home/ubuntu/ros2_ws/install/my_package/share/ament_index/resource_index/packages\n'}
+[0.974995] (my_package) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/ros2_ws/install/my_package/share/my_package\n'}
+[0.975100] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.976891] (my_package) StdoutLine: {'line': b'Copying ../../build/my_package/my_package.egg-info to /home/ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info\n'}
+[0.977765] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[0.997418] (my_package) StdoutLine: {'line': b'Installing my_node script to /home/ubuntu/ros2_ws/install/my_package/lib/my_package\n'}
+[0.997892] (my_package) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/my_package/install.log'\n"}
+[1.000452] (-) TimerEvent: {}
+[1.023465] (my_package) CommandEnded: {'returncode': 0}
+[1.031005] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[1.031774] (-) EventReactorShutdown: {}
