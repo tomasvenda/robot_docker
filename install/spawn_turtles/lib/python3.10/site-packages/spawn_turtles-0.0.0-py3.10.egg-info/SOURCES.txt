@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/spawn_turtles/spawn_turtles.egg-info/PKG-INFO
+../../build/spawn_turtles/spawn_turtles.egg-info/SOURCES.txt
+../../build/spawn_turtles/spawn_turtles.egg-info/dependency_links.txt
+../../build/spawn_turtles/spawn_turtles.egg-info/entry_points.txt
+../../build/spawn_turtles/spawn_turtles.egg-info/requires.txt
+../../build/spawn_turtles/spawn_turtles.egg-info/top_level.txt
+../../build/spawn_turtles/spawn_turtles.egg-info/zip-safe
+resource/spawn_turtles
+spawn_turtles/__init__.py
+spawn_turtles/client_spawn.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

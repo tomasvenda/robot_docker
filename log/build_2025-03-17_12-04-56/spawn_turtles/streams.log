@@ -1,0 +1,38 @@
+[0.648s] Invoking command in '/home/ubuntu/robot_docker/src/spawn_turtles': PYTHONPATH=/home/ubuntu/robot_docker/build/spawn_turtles/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/robot_docker/install/spawn_turtles/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/spawn_turtles build --build-base /home/ubuntu/robot_docker/build/spawn_turtles/build install --record /home/ubuntu/robot_docker/build/spawn_turtles/install.log --single-version-externally-managed install_data
+[0.890s] running egg_info
+[0.890s] creating ../../build/spawn_turtles/spawn_turtles.egg-info
+[0.900s] writing ../../build/spawn_turtles/spawn_turtles.egg-info/PKG-INFO
+[0.901s] writing dependency_links to ../../build/spawn_turtles/spawn_turtles.egg-info/dependency_links.txt
+[0.902s] writing entry points to ../../build/spawn_turtles/spawn_turtles.egg-info/entry_points.txt
+[0.902s] writing requirements to ../../build/spawn_turtles/spawn_turtles.egg-info/requires.txt
+[0.903s] writing top-level names to ../../build/spawn_turtles/spawn_turtles.egg-info/top_level.txt
+[0.903s] writing manifest file '../../build/spawn_turtles/spawn_turtles.egg-info/SOURCES.txt'
+[0.907s] reading manifest file '../../build/spawn_turtles/spawn_turtles.egg-info/SOURCES.txt'
+[0.907s] adding license file 'LICENSE'
+[0.908s] writing manifest file '../../build/spawn_turtles/spawn_turtles.egg-info/SOURCES.txt'
+[0.908s] running build
+[0.909s] running build_py
+[0.909s] creating /home/ubuntu/robot_docker/build/spawn_turtles/build
+[0.909s] creating /home/ubuntu/robot_docker/build/spawn_turtles/build/lib
+[0.909s] creating /home/ubuntu/robot_docker/build/spawn_turtles/build/lib/spawn_turtles
+[0.909s] copying spawn_turtles/client_spawn.py -> /home/ubuntu/robot_docker/build/spawn_turtles/build/lib/spawn_turtles
+[0.910s] copying spawn_turtles/__init__.py -> /home/ubuntu/robot_docker/build/spawn_turtles/build/lib/spawn_turtles
+[0.910s] running install
+[0.911s] running install_lib
+[0.912s] creating /home/ubuntu/robot_docker/install/spawn_turtles/lib/python3.10/site-packages/spawn_turtles
+[0.912s] copying /home/ubuntu/robot_docker/build/spawn_turtles/build/lib/spawn_turtles/client_spawn.py -> /home/ubuntu/robot_docker/install/spawn_turtles/lib/python3.10/site-packages/spawn_turtles
+[0.912s] copying /home/ubuntu/robot_docker/build/spawn_turtles/build/lib/spawn_turtles/__init__.py -> /home/ubuntu/robot_docker/install/spawn_turtles/lib/python3.10/site-packages/spawn_turtles
+[0.913s] byte-compiling /home/ubuntu/robot_docker/install/spawn_turtles/lib/python3.10/site-packages/spawn_turtles/client_spawn.py to client_spawn.cpython-310.pyc
+[0.914s] byte-compiling /home/ubuntu/robot_docker/install/spawn_turtles/lib/python3.10/site-packages/spawn_turtles/__init__.py to __init__.cpython-310.pyc
+[0.915s] running install_data
+[0.915s] creating /home/ubuntu/robot_docker/install/spawn_turtles/share/ament_index
+[0.915s] creating /home/ubuntu/robot_docker/install/spawn_turtles/share/ament_index/resource_index
+[0.915s] creating /home/ubuntu/robot_docker/install/spawn_turtles/share/ament_index/resource_index/packages
+[0.915s] copying resource/spawn_turtles -> /home/ubuntu/robot_docker/install/spawn_turtles/share/ament_index/resource_index/packages
+[0.916s] copying package.xml -> /home/ubuntu/robot_docker/install/spawn_turtles/share/spawn_turtles
+[0.916s] running install_egg_info
+[0.918s] Copying ../../build/spawn_turtles/spawn_turtles.egg-info to /home/ubuntu/robot_docker/install/spawn_turtles/lib/python3.10/site-packages/spawn_turtles-0.0.0-py3.10.egg-info
+[0.919s] running install_scripts
+[0.941s] Installing spawn_turtles script to /home/ubuntu/robot_docker/install/spawn_turtles/lib/spawn_turtles
+[0.941s] writing list of installed files to '/home/ubuntu/robot_docker/build/spawn_turtles/install.log'
+[0.964s] Invoked command in '/home/ubuntu/robot_docker/src/spawn_turtles' returned '0': PYTHONPATH=/home/ubuntu/robot_docker/build/spawn_turtles/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/robot_docker/install/spawn_turtles/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/spawn_turtles build --build-base /home/ubuntu/robot_docker/build/spawn_turtles/build install --record /home/ubuntu/robot_docker/build/spawn_turtles/install.log --single-version-externally-managed install_data

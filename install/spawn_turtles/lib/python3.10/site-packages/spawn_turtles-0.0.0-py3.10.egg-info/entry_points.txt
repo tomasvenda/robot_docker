@@ -1,0 +1,3 @@
+[console_scripts]
+spawn_turtles = spawn_turtles.client_spawn:main
+
